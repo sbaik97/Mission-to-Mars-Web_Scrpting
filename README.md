@@ -88,17 +88,16 @@ stand out.
 
   -Jupyter NoteBooks [ETL_clean_wiki_movies.ipynb](ETL_clean_wiki_movies.ipynb) and Python script [ETL_clean_wiki_movies.py](Pyscirpt/ETL_clean_wiki_movies.py)
 
-3. The Kaggle metadata is cleaned and merged with Wikipedia and Kaggle DataFrames, and the movies_with_ratings_df and the movies_df DataFrames are displayed in -   -Jupyter NoteBooks [ETL_clean_kaggle_data.ipynb](ETL_clean_kaggle_data.ipynb) and Python script [ETL_clean_kaggle_data.py](Pyscirpt/ETL_clean_kaggle_data.py)
+3. The scraping.py code for retriveing the full-resolution image URL and title for each hemisphere image (10 pt)
 
-4. Uploade the movies_df DataFrame and MovieLens rating CSV data to a SQL database and prints out the elapsed time to import each row.The fuction code and elapsed-time to add the data to the database is displayed in Jupyter NoteBooks [ETL_create_database.ipynb](ETL_create_database.ipynb) and Python script [ETL_create_database.py](Pyscirpt/ETL_create_database.py)
+-Jupyter NoteBooks [ETL_clean_kaggle_data.ipynb](ETL_clean_kaggle_data.ipynb) and Python script [ETL_clean_kaggle_data.py](Pyscirpt/ETL_clean_kaggle_data.py)
 
-- The movies table in the SQL database
+4. Update the Mongo database and represent the index.html that display the full-resolution image URL and title for each hemisphere image
 
-![movies_query.PNG](Resources/movies_query.PNG)
+[ETL_create_database.ipynb](ETL_create_database.ipynb) and Python script [ETL_create_database.py](Pyscirpt/ETL_create_database.py)
 
-- The ratings table in the SQL database
-
-![ratings_query.png](Resources/ratings_query.png)
+https://htmlpreview.github.io/?https://github.com/sbaik97/Mission-to-Mars-Web_Scrpting/blob/main/templates/Mission%20to%20Mars.html
+5. Update the index.html file so your website is mobile-responsive.
 
 - Elapsed time to add the data to the database
 
@@ -110,4 +109,4 @@ stand out.
 - From ETL process we can collect, clean, and uploade the data into the sql server. Importing a rating data takes quite a long time (3572.5107519626617 seconds) and  it's helpful to see the time information.
 
 
-https://htmlpreview.github.io/?https://github.com/sbaik97/Mission-to-Mars-Web_Scrpting/blob/main/templates/Mission%20to%20Mars.html
+
