@@ -8,30 +8,23 @@ The collected work will be displayed in HTML web browser.
 
 ### Goals:
 
-- Create an automated ETL pipeline.
- 
-- Extract data from multiple sources using Python.
-
-- Clean and transform the data automatically using Pandas and regular expressions.
-
-- Parse data and to transform text into numbers using regular expressions.
-
-- Load new data into existing tables in PostgreSQL
+- Use HTML elements, class and id attributes, to identify content for web scraping.
+- Use BeautifulSoup and Splinter to automate a web browser and perform a web scrape.
+- Create a MongoDB database to store data from the web scrape.
+- Create a web application with Flask to display the data from the web scrape.
+- Create an HTML/CSS portfolio to showcase projects.
+- Use Bootstrap components to polish and customize the portfolio.
 
 ### Resources:
 
-
+- NonSQL database (MongoDB), HTML editer (VS code)
 - Web Scraping Tools (ChromeDriver, Splinter and BeautifulSoup)
 - Scrape sites (url): https://mars.nasa.gov/news
-
-                      https://www.jpl.nasa.gov/spaceimages/?search=&category=Mars
-                      
-                      http://space-facts.com/mars/
-                      
-                      https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars
+- https://www.jpl.nasa.gov/spaceimages/?search=&category=Mars
+- http://space-facts.com/mars/
+- https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars
                       
                       
-
 
 ## Objectives
 
