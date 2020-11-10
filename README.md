@@ -26,9 +26,9 @@ The collected work will be displayed in HTML web browser.
                       
                       
 
-## Major Outputs:
+## Major Results:
 
-### Step 1 - Scraping
+## Web Scraping
 
 #### Scrape Mars Data: The News
 
@@ -53,7 +53,7 @@ The collected work will be displayed in HTML web browser.
 
 - Jupyter NoteBook file for data scraping : [Mars_datascraping.ipynb](/Mars_datascraping.ipynb)
 
-### Step 2 - MongoDB and Flask Application
+### Store and dislpay the data with MongoDB and HTML application
 
 * Use MongoDB with Flask templating to create a new HTML page that displays all of the information that was scraped from the URLs above
 * Convert Jupyter Notebook into a Python Script called `scrape_mars.py` with a function called `scrape` that will execute all of the scraping code from above and return one Python Dictionary containing all of the scraped data
