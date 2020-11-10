@@ -51,7 +51,7 @@ The collected work will be displayed in HTML web browser.
 * Scrape the table containing facts about the planet including Diameter, Mass, etc.
 * Use Pandas to convert the data to a HTML table string
 
-- Pandas file for data scraping : [Mars_datascraping.ipynb](/Mars_datascraping.ipynb)
+- Jupyter NoteBook file for data scraping : [Mars_datascraping.ipynb](/Mars_datascraping.ipynb)
 
 ### Step 2 - MongoDB and Flask Application
 
@@ -83,11 +83,11 @@ stand out.
 
 1. Pandas code that retrieves the url of the full-resolution image and title for each hemisphere image
  
-  -Jupyter NoteBooks [ETL_function_test.ipynb](ETL_function_test.ipynb) and Python script [challenge.py](Pyscirpt/ETL_function_test.py)
+  - Jupyter NoteBook file for data scraping : [Mission_to_Mars-Challenge.ipynb](/Mission_to_Mars-Challenge.ipynb)
 
 2. The list contains the dictionary of the full-resolution image URL string and title for each hemisphere image.  
 
-  -Jupyter NoteBooks [ETL_clean_wiki_movies.ipynb](ETL_clean_wiki_movies.ipynb) and Python script [ETL_clean_wiki_movies.py](Pyscirpt/ETL_clean_wiki_movies.py)
+  - Results: [Image_url_and_title.PNG](/image/image_url_and_title.PNG)
 
 3. The scraping.py code for retriveing the full-resolution image URL and title for each hemisphere image (10 pt)
 
