@@ -91,23 +91,26 @@ stand out.
 
 3. The scraping.py code for retriveing the full-resolution image URL and title for each hemisphere image (10 pt)
 
--Jupyter NoteBooks [ETL_clean_kaggle_data.ipynb](ETL_clean_kaggle_data.ipynb) and Python script [ETL_clean_kaggle_data.py](Pyscirpt/ETL_clean_kaggle_data.py)
+-Jupyter NoteBooks [Mission_to_Mars-Challenge.ipynb](/Mission_to_Mars-Challenge.ipynb)
 
 4. Update the Mongo database and represent the index.html that display the full-resolution image URL and title for each hemisphere image
 
-[ETL_create_database.ipynb](ETL_create_database.ipynb) and Python script [ETL_create_database.py](Pyscirpt/ETL_create_database.py)
+![Image_mars_surface](/image/mars_surface2x2.PNG)
 
+Website:
 https://htmlpreview.github.io/?https://github.com/sbaik97/Mission-to-Mars-Web_Scrpting/blob/main/templates/Mission%20to%20Mars.html
+
+
 5. Update the index.html file so your website is mobile-responsive.
 
-- Elapsed time to add the data to the database
-
-![elapsed_time.PNG](Resources/elapsed_time_for_upload.PNG)
+![Mobile-responsive_image.PNG](image/mars_surface1x4.PNG)
 
 
 ### Conclusions
-- Creating a function is more effective way to extract, transform and load process to a PostgreSQL database for large datafile.
-- From ETL process we can collect, clean, and uploade the data into the sql server. Importing a rating data takes quite a long time (3572.5107519626617 seconds) and  it's helpful to see the time information.
+
+-  We scaped the full-resolution images of Mars’s hemispheres and the titles of those images using BeautifulSoup and Splinter, and store the scraped data on a Mongo database, use a web application to display the data
+
+- We updated the Web App with Mars Hemisphere Images and Titles to make it mobileresponsive using Bootstrap 3 components
 
 
 
