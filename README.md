@@ -33,21 +33,22 @@ The collected work will be displayed in HTML web browser.
 #### Scrape Mars Data: The News
 
 * Scrape data from the NASA Mars News Site and collect the latest News Title and Paragraph Text
- - Visit the mars nasa news site, url = 'https://mars.nasa.gov/news/'
+ - Visit the mars NSAS news site, url = 'https://mars.nasa.gov/news/'
  - Set up the HTML parser:
  - Find and assign the title and summary text to variables
  - Scrap website title and text.
  
 #### Scrape Mars Data: Featured Image
 
-* Visit the URL for the JPL Featured Space Image
+* Visit the URL for the JPL Featured Space Image,  url = 'https://www.jpl.nasa.gov/spaceimages/?search=&category=Mars'
 * Use Splinter to navigate the site and find the image URL for the current Featured Mars Image and assign the URL string to a variable called `featured_image_url`
 * Make sure to find the image URL to the full size `.jpg` image
 * Make sure to save a complete URL string for this image
 
 #### Scrape Mars Data: Mars Facts
 
-* Visit the Mars Facts webpage and use Pandas to scrape the table containing facts about the planet including Diameter, Mass, etc.
+* Visit the Mars Facts webpage, url = 'https://space-facts.com/mars/'
+* Scrape the table containing facts about the planet including Diameter, Mass, etc.
 * Use Pandas to convert the data to a HTML table string
 
 
@@ -66,7 +67,7 @@ The collected work will be displayed in HTML web browser.
 ### Background
 
  - Scraping of four images of Mars’s hemispheres from the search results of Mars. we will adjust the current web app to include all four of the hemisphere images: Cerberus Hemisphere, Schiaparelli Hemisphere, Syrtis Major Hemisphere, Valles Marineris Hemisphere.
-
+- url = 'https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars'
 
 ### Goals
 
