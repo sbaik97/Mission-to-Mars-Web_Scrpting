@@ -51,6 +51,7 @@ The collected work will be displayed in HTML web browser.
 * Scrape the table containing facts about the planet including Diameter, Mass, etc.
 * Use Pandas to convert the data to a HTML table string
 
+- Pandas file for data scraping : [Mars_datascraping.ipynb](/Mars_datascraping.ipynb)
 
 ### Step 2 - MongoDB and Flask Application
 
