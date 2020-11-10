@@ -87,7 +87,7 @@ stand out.
 
 2. The list contains the dictionary of the full-resolution image URL string and title for each hemisphere image.  
 
-  - Results: [Image_url_and_title.PNG](/image/image_url_and_title.PNG)
+  - Results: [Image_url_and_title.PNG](image/image_url_and_title.PNG)
 
 3. The scraping.py code for retriveing the full-resolution image URL and title for each hemisphere image (10 pt)
 
