@@ -81,27 +81,28 @@ stand out.
 
 ### Challenge Outputs:
 
-1. Pandas code that retrieves the url of the full-resolution image and title for each hemisphere image
+1. Visit the website for the final product
+
+Website: https://htmlpreview.github.io/?https://github.com/sbaik97/Mission-to-Mars-Web_Scrpting/blob/main/templates/Mission%20to%20Mars.html
+
+2. Pandas code that retrieves the url of the full-resolution image and title for each hemisphere image
  
   - Jupyter NoteBook file for data scraping : [Mission_to_Mars-Challenge.ipynb](/Mission_to_Mars-Challenge.ipynb)
 
-2. The list contains the dictionary of the full-resolution image URL string and title for each hemisphere image.  
+3. The list contains the dictionary of the full-resolution image URL string and title for each hemisphere image.  
 
   ![Image_url_and_title.PNG](image/image_url_and_title.PNG)
 
-3. The scraping.py code for retriveing the full-resolution image URL and title for each hemisphere image (10 pt)
+4. The scraping.py code for retriveing the full-resolution image URL and title for each hemisphere image (10 pt)
 
 -Jupyter NoteBooks [Mission_to_Mars-Challenge.ipynb](/Mission_to_Mars-Challenge.ipynb)
 
-4. Update the Mongo database and represent the index.html that display the full-resolution image URL and title for each hemisphere image
+5. Update the Mongo database and represent the index.html that display the full-resolution image URL and title for each hemisphere image
 
 ![Image_mars_surface](/image/mars_surface2x2.PNG)
 
-Website:
-https://htmlpreview.github.io/?https://github.com/sbaik97/Mission-to-Mars-Web_Scrpting/blob/main/templates/Mission%20to%20Mars.html
 
-
-5. Update the index.html file so your website is mobile-responsive.
+6. Update the index.html file so your website is mobile-responsive.
 
 ![Mobile-responsive_image.PNG](image/mars_surface1x4.PNG)
 
