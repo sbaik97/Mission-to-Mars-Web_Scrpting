@@ -22,9 +22,12 @@ The collected work will be displayed in HTML web browser.
 
 
 - Web Scraping Tools (ChromeDriver, Splinter and BeautifulSoup)
-- Scrape sites (url): https://mars.nasa.gov/news/, 
+- Scrape sites (url): https://mars.nasa.gov/news
+
                       https://www.jpl.nasa.gov/spaceimages/?search=&category=Mars
+                      
                       http://space-facts.com/mars/
+                      
                       https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars
                       
                       
