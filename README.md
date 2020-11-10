@@ -26,38 +26,30 @@ The collected work will be displayed in HTML web browser.
                       
                       
 
-## Objectives
+## Major Outputs:
 
 ### Step 1 - Scraping
 
-#### NASA Mars News
+#### Scrape Mars Data: The News
 
-* Scrape the NASA Mars News Site and collect the latest News Title and Paragraph Text
-
-#### JPL Mars Space Images - Featured Image
+* Scrape data from the NASA Mars News Site and collect the latest News Title and Paragraph Text
+ - Visit the mars nasa news site, url = 'https://mars.nasa.gov/news/'
+ - Set up the HTML parser:
+ - Find and assign the title and summary text to variables
+ - Scrap website title and text.
+ 
+#### Scrape Mars Data: Featured Image
 
 * Visit the URL for the JPL Featured Space Image
 * Use Splinter to navigate the site and find the image URL for the current Featured Mars Image and assign the URL string to a variable called `featured_image_url`
 * Make sure to find the image URL to the full size `.jpg` image
 * Make sure to save a complete URL string for this image
 
-#### Mars Weather
-
-* Visit the Mars Weather Twitter account and scrape the latest Mars Weather Tweet from the page
-    * Save the Tweet text for the weather report as a variable called `mars_weather`
-
-#### Mars Facts
+#### Scrape Mars Data: Mars Facts
 
 * Visit the Mars Facts webpage and use Pandas to scrape the table containing facts about the planet including Diameter, Mass, etc.
 * Use Pandas to convert the data to a HTML table string
 
-#### Mars Hemispheres
-
-* Visit the USGS Astrogeology site to obtain high resolution images for each of Mar's hemispheres
-* Save both the image URL string for the full resolution hemisphere image, and the Hemisphere title containing the hemisphere name. 
-    * Use a Python dictionary to store the data using the keys `img_url` and `title`
-* Append the dictionary with the image URL string and the hemisphere title to a list
-    * This list will contain one dictionary for each hemisphere
 
 ### Step 2 - MongoDB and Flask Application
 
@@ -67,6 +59,54 @@ The collected work will be displayed in HTML web browser.
     * Store the return value in Mongo as a Python Dictionary
 * Create a root route `/` that will query the Mongo database and pass the Mars Data into an HTML template to display the data
 * Create a template HTML file called `index.html` that will take the Mars Data Dictionary and display all of the data in the appropriate HTML elements
+
+
+# Challenge
+
+### Background
+
+ - Scraping of four images of Mars’s hemispheres from the search results of Mars. we will adjust the current web app to include all four of the hemisphere images: Cerberus Hemisphere, Schiaparelli Hemisphere, Syrtis Major Hemisphere, Valles Marineris Hemisphere.
+
+
+### Goals
+
+* Using BeautifulSoup and Splinter, you’ll scrape full-resolution images of Mars’s hemispheres and the titles of those images.
+* Update the Web App with Mars Hemisphere Images and Titles
+* Update your web app to make it mobile- responsive, and add two additional Bootstrap 3 components to make it
+stand out.
+
+
+
+### Challenge Outputs:
+
+1. Pandas code that retrieves the url of the full-resolution image and title for each hemisphere image
+ 
+  -Jupyter NoteBooks [ETL_function_test.ipynb](ETL_function_test.ipynb) and Python script [challenge.py](Pyscirpt/ETL_function_test.py)
+
+2. The list contains the dictionary of the full-resolution image URL string and title for each hemisphere image.  
+
+  -Jupyter NoteBooks [ETL_clean_wiki_movies.ipynb](ETL_clean_wiki_movies.ipynb) and Python script [ETL_clean_wiki_movies.py](Pyscirpt/ETL_clean_wiki_movies.py)
+
+3. The Kaggle metadata is cleaned and merged with Wikipedia and Kaggle DataFrames, and the movies_with_ratings_df and the movies_df DataFrames are displayed in -   -Jupyter NoteBooks [ETL_clean_kaggle_data.ipynb](ETL_clean_kaggle_data.ipynb) and Python script [ETL_clean_kaggle_data.py](Pyscirpt/ETL_clean_kaggle_data.py)
+
+4. Uploade the movies_df DataFrame and MovieLens rating CSV data to a SQL database and prints out the elapsed time to import each row.The fuction code and elapsed-time to add the data to the database is displayed in Jupyter NoteBooks [ETL_create_database.ipynb](ETL_create_database.ipynb) and Python script [ETL_create_database.py](Pyscirpt/ETL_create_database.py)
+
+- The movies table in the SQL database
+
+![movies_query.PNG](Resources/movies_query.PNG)
+
+- The ratings table in the SQL database
+
+![ratings_query.png](Resources/ratings_query.png)
+
+- Elapsed time to add the data to the database
+
+![elapsed_time.PNG](Resources/elapsed_time_for_upload.PNG)
+
+
+### Conclusions
+- Creating a function is more effective way to extract, transform and load process to a PostgreSQL database for large datafile.
+- From ETL process we can collect, clean, and uploade the data into the sql server. Importing a rating data takes quite a long time (3572.5107519626617 seconds) and  it's helpful to see the time information.
 
 
 https://htmlpreview.github.io/?https://github.com/sbaik97/Mission-to-Mars-Web_Scrpting/blob/main/templates/Mission%20to%20Mars.html
