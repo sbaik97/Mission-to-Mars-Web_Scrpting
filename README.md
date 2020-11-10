@@ -1,11 +1,33 @@
 # Mission-to-Mars/Web_Scrpting
 
-
 ## Background
 
 Navigate a web browser automatively to extract data about the Mission to Mars and store it in a NoSQL
 database, and then render the data in a web application created with Flask. 
 The collected work will be displayed in HTML web browser. 
+
+### Goals:
+
+- Create an automated ETL pipeline.
+ 
+- Extract data from multiple sources using Python.
+
+- Clean and transform the data automatically using Pandas and regular expressions.
+
+- Parse data and to transform text into numbers using regular expressions.
+
+- Load new data into existing tables in PostgreSQL
+
+### Resources:
+
+
+- Web Scraping Tools (ChromeDriver, Splinter and BeautifulSoup)
+- Scrape sites (url): https://mars.nasa.gov/news/, 
+                      https://www.jpl.nasa.gov/spaceimages/?search=&category=Mars
+                      http://space-facts.com/mars/
+                      https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars
+                      
+                      
 
 
 ## Objectives
