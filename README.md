@@ -102,7 +102,7 @@ Website: https://htmlpreview.github.io/?https://github.com/sbaik97/Mission-to-Ma
 ![Image_mars_surface](/image/mars_surface2x2.PNG)
 
 
-6. Update the index.html file so your website is mobile-responsive.
+6. Update the index.html file so the website is mobile-responsive.
 
 ![Mobile-responsive_image.PNG](image/mars_surface1x4.PNG)
 
