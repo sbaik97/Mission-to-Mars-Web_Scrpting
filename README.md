@@ -2,9 +2,8 @@
 
 ## Background
 
-Navigate a web browser automatively to extract data about the Mission to Mars and store it in a NoSQL
+Navigate a web browser automatively to extract data about the Mission to Mars and store it in a Non-SQL
 database, and then render the data in a web application created with Flask. 
-The collected work will be displayed in HTML web browser. 
 
 ### Goals:
 
